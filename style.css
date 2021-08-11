@@ -35,7 +35,8 @@ body {
     margin-bottom: 20px;
 }
 
-.section-login__button{
+.section-login a{
+    display: block;
     font-size: 12px;
     font-weight: 400;
     background-color: transparent;
@@ -57,12 +58,12 @@ body {
     border: 1px solid #ccc;
 }
 
-.email {
+input[type="email"] {
     border-radius: 5px 5px 0px 0px;
     border-bottom: none;
 }
 
-.password {
+input[type="password"] {
     border-radius: 0px 0px 5px 5px;
 }
 
