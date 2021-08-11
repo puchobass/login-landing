@@ -12,16 +12,13 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.section-login {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.section-login article{
+.section-login {
     text-align: center;
     width: 350px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
@@ -29,8 +26,8 @@ body {
 }
 
 .section-login img {
-    width: 135px;
-    margin-top: 10px; 
+    width: 120px;
+    margin-top: 20px; 
 }
 
 .section-login h3 {
@@ -76,8 +73,8 @@ body {
 .form-login__button {
     width: 200px;
     padding: 10px;
-    background-color: #249ef0;
-    border: 1px solid #249ef0;
+    background-color: #3ba8e7;
+    border: 1px solid #3ba8e7;
     border-radius: 4px;
     margin: 20px 0px 10px 0px;
     color: #fff;
@@ -85,7 +82,7 @@ body {
 }
 
 .form-login__button:hover {
-    color: #249ef0;
+    color: #3ba8e7;
     background-color: #fff;
-    border-color: #249ef0;
+    border-color: #3ba8e7;
 }
